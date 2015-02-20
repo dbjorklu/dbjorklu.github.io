@@ -1,0 +1,11 @@
+<div class="nav">
+  {% if page.class == 'etusivu' %}
+    <a href="../index.html" class="active">Etusivu</a><a href="../fi/palvelut.html">Palvelut</a><a href="../fi/kohteita.html">kohteita</a>
+  {% elsif page.class == 'palvelut' %}
+    <a href="../index.html">Etusivu</a><a href="../fi/palvelut.html" class="active">Palvelut</a><a href="../fi/kohteita.html">kohteita</a>
+  {% elsif page.class == 'kohteita' %}
+    <a href="../index.html">Etusivu</a><a href="../fi/palvelut.html">Palvelut</a><a href="../fi/kohteita.html" class="active">kohteita</a>
+  {% else %}
+    <a href="../index.html">Etusivu</a><a href="../fi/palvelut.html">Palvelut</a><a href="../fi/kohteita.html">kohteita</a>
+  {% endif %}
+</div>

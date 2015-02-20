@@ -1,0 +1,28 @@
+.blog {
+  .post {
+    border-bottom: 1px solid #efefef;;
+    padding-top: 2em;
+  }
+  .post:first-child {
+    padding-top: 0;
+  }
+  .post:last-child {
+    border-bottom: 0;
+  }
+  h1 a {
+    color: $heading-color;
+  }
+  h1 a:visited {
+    color: $heading-color;
+  }
+  .post-content {
+    max-height: 310px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 2em;
+  }
+  .readmore {
+    padding-bottom: 20px;
+  }
+}

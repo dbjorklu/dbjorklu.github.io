@@ -1,0 +1,11 @@
+<div class="nav">
+  {% if page.class == 'solution' %}
+    <a href="/solution.html" class="active">Solution</a><a href="/products.html">Products</a><a href="/about.html">About us</a>
+  {% elsif page.class == 'products' %}
+    <a href="/solution.html">Solution</a><a href="/products.html" class="active">Products</a><a href="/about.html">About us</a>
+  {% elsif page.class == 'about' %}
+    <a href="/solution.html">Solution</a><a href="/products.html">Products</a><a href="/about.html" class="active">About us</a>
+  {% else %}
+    <a href="/solution.html">Solution</a><a href="/products.html">Products</a><a href="/about.html">About us</a>
+  {% endif %}
+</div>

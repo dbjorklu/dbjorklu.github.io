@@ -1,0 +1,16 @@
+---
+layout: default
+class: blog
+---
+
+{% for post in site.posts %}
+	<div class="post">
+		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+		<p class="subhead">{{ post.subhead }}</p>
+	    <div class="post-content">
+	    	{{ post.content }}
+	   	</div>
+	   	<a class="readmore" href="{{ post.url }}">Read more..</a>
+		<p><small>{{ post.date | date: "%B %e, %Y" }} - {{ post.author }}</small></p>	
+	</div>	
+{% endfor %}

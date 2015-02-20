@@ -1,0 +1,40 @@
+/* font sets */
+$heading-fonts:     'Open Sans', sans-serif;
+$body-fonts:        'Helvetica Neue', Helvetica, Arial, sans-serif;
+$monospace-fonts:   'Inconsolata', monospace;
+
+/* colors */
+$page-background:     #F3F3F3;
+$box-background:      #FFFFFF;
+$border-color:        #CCCCCC;
+$color-success:       #009645;
+$color-warning:       #D6D003;
+$color-error:         #CC292B;
+$color-info:          #00599C;
+
+$heading-color:       #333;
+$text-color:          #333;
+$text-light-color:    #808080;
+$text-inv-color:      #FFFFFF;
+
+$chart-color:         #FF7F1E;
+$chart-color-even:    #F06000;
+$chart-line-color:    #00599C;
+
+
+$gauge-background:    #FAFAFA;
+$gauge-color:         #E0E0E0;
+
+$bargraph-background: $page-background;
+$bargraph-fill:       #F6A623;
+$bargraph-stroke:     #F0A11E;
+
+$progressbar-color:   #FF7F1E;
+
+
+// icon backgrounds
+$typeicon-default: $chart-color; // orange
+$typeicon-blue:    $color-info;
+$typeicon-grey:    #546e7a;
+$typeicon-red:     $color-error;
+$typeicon-teal:    #00796b;
