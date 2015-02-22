@@ -7,19 +7,16 @@ layout: default
 <p>default header for all gallery pages</p>
 
 {% for gallery in site.data.galleries %}
-  {% if gallery.id == page.galleryid %}
     <h1>{{ gallery.description }}</h1>
     <ol>
-    {% for image in gallery.images %}
-      <li>
-        {{ image.text }}<br>
-        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
-          <img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+        <a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
+          <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}">
         </a>
-      </li>
+
+    {% for image in gallery.images %}
+        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"></a>
     {% endfor %}
     </ol>
-  {% endif %}
 {% endfor %}
 
 <p>default footer for all gallery pages</p>

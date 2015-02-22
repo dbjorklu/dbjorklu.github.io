@@ -1,5 +1,5 @@
-- id: gallery1
-  description: This is the first gallery
+- id: jukkatalo
+  description: Jukkatalo asuntomessut
   imagefolder: /images/kohteita/jukkatalo
   images:
   - name: jukka1.jpg
@@ -7,10 +7,10 @@
     text: Jukkatalo
   - name: IMG_6459.jpg
     text: Jukkatalo2
-  - name: image-3.jpg
-    text: The third image
-- id: anothergallery
-  description: This is even another gallery!
+  - name: IMG_6820.jpg
+    text: Jukkatalo 2
+- id: simila
+  description: Villa Similä asuntomessut
   imagefolder: /images/kohteita/jukkatalo
   images:
   - name: jukka1.jpg
