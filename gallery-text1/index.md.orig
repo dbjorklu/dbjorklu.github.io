@@ -1,0 +1,21 @@
+---
+layout: default
+title: Gallery with text (version 1)
+imgfolder: /images/kohteita/jukkatalo
+images:
+  - name: IMG6768.jpg
+    thumb: jukka1_thumb.jpg
+    text: The first imageee
+  - name: IMG_6747.jpg
+    thumb: jukka1_thumb.jpg
+    text: The second imageeei
+
+---
+
+{% include galheader.html %}
+
+Some text here...and then, all the images in one single gallery:
+
+{% include gal.html %}
+
+...and more text after the gallery

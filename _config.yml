@@ -7,6 +7,9 @@ encoding: utf-8
 
 exclude: ['public', 'Gemfile', 'Gemfile.lock', 'Procfile', 'unicorn.rb', 'config.ru', 'src', 'Cakefile', 'style.less', 'vendor']
 
+markdown: redcarpet
+highlighter: false
+
 
 
 destination: 'public'

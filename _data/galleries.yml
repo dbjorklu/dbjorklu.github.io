@@ -1,0 +1,25 @@
+- id: gallery1
+  description: This is the first gallery
+  imagefolder: /images/kohteita/jukkatalo
+  images:
+  - name: jukka1.jpg
+    thumb: jukka1_thumb.jpg
+    text: Jukkatalo
+  - name: IMG_6459.jpg
+    text: Jukkatalo2
+  - name: image-3.jpg
+    text: The third image
+- id: anothergallery
+  description: This is even another gallery!
+  imagefolder: /images/kohteita/jukkatalo
+  images:
+  - name: jukka1.jpg
+    thumb: jukka1_thumb.jpg
+    text: Jukkatalo
+  - name: IMG_6459.jpg
+    thumb: IMG_6459.jpg
+    text: Jukkatalo2
+  - name: image-3.jpg
+    thumb: thumb-3.jpg
+    text: The third image
+
