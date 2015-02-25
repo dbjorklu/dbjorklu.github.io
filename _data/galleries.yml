@@ -13,23 +13,23 @@
     text: Takkahuone
   - name: IMG_6727.jpg
     text: Keittiö ja eteinen
-- name: keittio.jpg
+  - name: keittio.jpg
     text: keittiö
-- name: mh.jpg
+  - name: mh.jpg
     text: makuuhuone
-- name: IMG_6793.jpg
+  - name: IMG_6793.jpg
     text: wc
-- name: IMG_6820.jpg
+  - name: IMG_6820.jpg
     text: kylpyhuone
-- name: sauna.jpg
+  - name: sauna.jpg
     text: sauna
-- name: IMG_6763.jpg
+  - name: IMG_6763.jpg
     text: yläaula
-- name: IMG_6768.jpg
+  - name: IMG_6768.jpg
     text: portaikko
-- name: IMG_6743.jpg
+  - name: IMG_6743.jpg
     text: vierashuone
-- name: IMG_6747.jpg
+  - name: IMG_6747.jpg
     text: askarteluhuone
 
 - id: simila
@@ -44,7 +44,7 @@
   - name: image-3.jpg
     text: The third image
 
-- id: Omakotitalo 2
+- id: Omakotitalo2
   description: Omakotitalo 2
   imagefolder: /images/kohteita/omakotitalo2
   images:
@@ -59,7 +59,7 @@
     text: Takkahuone
   - name: IMG_6727.jpg
     text: Keittiö ja eteinen
-- name: keittio.jpg
+  - name: keittio.jpg
     text: keittiö
 - name: mh.jpg
     text: makuuhuone
@@ -77,4 +77,5 @@
     text: vierashuone
 - name: IMG_6747.jpg
     text: askarteluhuone
+    
 
