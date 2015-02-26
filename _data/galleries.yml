@@ -36,13 +36,42 @@
   description: Villa Similä asuntomessut 2008
   imagefolder: /images/kohteita/jukkatalo
   images:
-  - name: jukka1.jpg
-    thumb: jukka1_thumb.jpg
+  - name: rh2.jpg
+    thumb: rh2_thumb.jpg
     text: Ruokatila
-  - name: IMG_6459.jpg
-    text: Jukkatalo2
-  - name: image-3.jpg
-    text: The third image
+  - name: rh.jpg
+    text: Ruokatila
+  - name: keittio.jpg
+    text: Keittiö
+  - name: oh.jpg
+    text: Olohuone
+  - name: oh1.jpg
+    text: Olohuone
+  - name: khh.jpg
+  - name: th.jpg
+    text: Työhuone
+    text: Kodinhoitohuone
+  - name: kph1.jpg
+    text: Kylpyhuone
+  - name: aula.jpg
+    text: Aula
+  - name: tyton_huone.jpg
+    text: Tytön huone
+  - name: pojan_huone.jpg
+    text: Pojan huone
+  - name: vmh.jpg
+    text: Vanhempien makuuhuone
+  - name: kph.jpg
+    text: Kylpyhuone
+  - name: terassi.jpg
+    text: Terassi
+  - name: saunahuone.jpg
+    text: Saunahuone
+  - name: wc.jpg
+    text: WC Saunarakennus
+  - name: sauna.jpg
+    text: Sauna
+
 
 - id: Omakotitalo2
   description: Omakotitalo 2
