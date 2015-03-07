@@ -68,6 +68,76 @@
   - name: sauna.jpg
     text: Sauna
 
+- id: Omakotitalo1
+  description: Omakotitalo 1
+  imagefolder: /images/kohteita/omakotitalo1
+  images:
+  - name: oh5_jalk.JPG
+    thumb: omakotitalo2_thumb.JPG
+    text: Olohuone jälkeen
+  - name: eteinen_ennen.JPG
+    text: Eteinen ennen
+  - name: eteinen2_ennen.JPG
+    text: Eteinen ennen
+  - name: eteinen1_jalk.JPG
+    text: Eteinen jälkeen
+  - name: eteinen2_jalk.JPG
+    text: Eteinen jälkeen
+  - name: eteinen3_jalk.JPG
+    text: Eteinen jälkeen
+  - name: keittio_ennen.JPG
+    text: Keittiö ennen
+  - name: keittio2_ennen.JPG
+    text: Keittiö ennen
+  - name: keittio1_jalk.JPG
+    text: Keittiö jälkeen
+  - name: keittio2_jalk.JPG
+    text: Keittiö jälkeen
+  - name: keittio3_jalk.JPG
+    text: Keittiö jälkeen
+  - name: keittio4_jalk.JPG
+    text: Keittiö jälkeen
+  - name: keittio6_jalk.JPG
+    text: Keittiö jälkeen
+  - name: oh_ennen.JPG
+    text: Olohuone ennen
+  - name: oh_ennen2.JPG
+    text: Olohuone ennen
+  - name: oh1_jalk.JPG
+    text: Olohuone jälkeen
+  - name: oh2_jalk.JPG
+    text: Olohuone jälkeen
+  - name: oh3_jalk.JPG
+    text: Olohuone jälkeen
+  - name: oh4_jalk.JPG
+    text: Olohuone jälkeen
+  - name: oh5_jalk.JPG
+    text: Olohuone jälkeen
+  - name: oh6_jalk.JPG
+    text: Olohuone jälkeen
+  - name: wc_alakerta.JPG
+    text: Alakerran WC ennen
+  - name: wc_jalk.JPG
+    text: Alakerran WC jälkeen
+  - name: aula_ennen.JPG
+    text: Yläkerran aula ennen
+  - name: aula1_jalk.JPG
+    text: Yläkerran aula jälkeen
+  - name: aula2_jalk.JPG
+    text: Yläkerran aula jälkeen
+  - name: kph1_ennen.JPG
+    text: Kylpyhuone ennen
+  - name: kph2_ennen.JPG
+    text: Kylpyhuone ennen
+  - name: kph1_jalk.JPG
+    text: Kylpyhuone jälkeen
+  - name: kph2_jalk.JPG
+    text: Kylpyhuone jälkeen
+  - name: kph3_jalk.JPG
+    text: Kylpyhuone jälkeen
+  - name: kph4_jalk.JPG
+    text: Kylpyhuone jälkeen
+  - name: kph5_jalk.JPG
 
 
 
@@ -76,8 +146,14 @@
   imagefolder: /images/kohteita/omakotitalo2
   images:
   - name: oh_jalk2.jpg
-    thumb: oh_jalk2_thumb.jpg
+    thumb: omakotitalo2_thumb.jpg
     text: Olohuone jälkeen
+  - name: et_ennen1.jpg
+    text: Eteinen ennen
+  - name: et_jalk1.jpg
+    text: Eteinen jälkeen
+  - name: et_jalk2.jpg
+    text: Eteinen jälkeen
   - name: oh_ennen1.jpg
     text: Olohuone ennen
   - name: oh_jalk1.jpg
@@ -92,17 +168,182 @@
     text: Olohuone jälkeen
   - name: keittio_ennen1.jpg
     text: Keittiö ennen
-  - name: IMG_6820.jpg
-    text: kylpyhuone
+  - name: keittio_ennen2.jpg
+    text: Keittiö ennen
+  - name: keittio_ennen3.jpg
+    text: Keittiö ennen
+  - name: keittio_jalkeen1.jpg
+    text: Keittiö jälkeen
+  - name: keittio_jalk2.jpg
+    text: Keittiö jälkeen
+  - name: keittio_jalk3.jpg
+    text: Keittiö jälkeen
+  - name: keittio_jalk4.jpg
+    text: Keittiö jälkeen
+  - name: mh_ennen1.jpg
+    text: Makuuhuone ennen
+  - name: mh_ennen2.jpg
+    text: Makuuhuone ennen
+  - name: mh_jalk1.jpg
+    text: Makuuhuone jälkeen
+  - name: mh_jalk2.jpg
+    text: Makuuhuone jälkeen
+  - name: mh_jalk3.jpg
+    text: Makuuhuone jälkeen 
+  - name: tyoh_ennen1.jpg
+    text: Työhuone ennen
+  - name: tyoh_jalk1.jpg
+    text: Työhuone jälkeen
+  - name: tyoh_jalk2.jpg
+    text: Työhuone jälkeen
+  - name: vierash2_ennen.jpg
+    text: Vierashuone ennen
+  - name: vierash2_ennen1.jpg
+    text: Vierashuone ennen
+  - name: vierash2_jalk1.jpg
+    text: Vierashuone jälkeen
+  - name: vierash2_jalk2.jpg
+    text: Vierashuone jälkeen 
+  - name: wc_ennen.jpg
+    text: WC ennen
+  - name: wc_jalk.jpg
+    text: WC jälkeen
+  - name: khh_ennen1.jpg
+    text: Kodinhoitohuone ennen
+  - name: khh_jalk.jpg
+    text: Kodinhoitohuone jälkeen
+  - name: kph_ennen.jpg
+    text: Kylpyhuone ennen
+  - name: kph_jalk.jpg
+    text: Kylpyhuone jälkeen 
+  - name: sauna_ennen.jpg
+    text: Sauna ennen
+  - name: sauna_jalk.jpg
+    text: Sauna jälkeen  
+
+- id: kellari
+  description: Kellari
+  imagefolder: /images/kohteita/kellari
+  images:
+  - name: tv2.jpg
+    thumb: kellari_thumb.jpg
+    text: Tv-huone jälkeen
+  - name: ennen1.jpg
+    text: Portaikko ennen
+  - name: ennen2.jpg
+    text: Portaikko ennen
+  - name: portaikko1.jpg
+    text: Portaikko jälkeen
+  - name: portaikko2.jpg
+    text: Portaikko jälkeen
+  - name: portaikko3.jpg
+    text: Portaikon kaapisto remontin jälkeen
+  - name: ennen3.jpg
+    text: Kellarin käytävä ennen
+  - name: ennen4.jpg
+    text: Kodinhoitohuone ennen
+  - name: ennen5.jpg
+    text: Kodinhoitohuone ennen
+  - name: kellari1.jpg
+    text: Kellari jälkeen
+  - name: kellari2.jpg
+    text: Kellari jälkeen
+  - name: kellari3.jpg
+    text: Kellari jälkeen
+  - name: kellari4.jpg
+    text: Kodinhoitohuone jälkeen
+  - name: ennen6.jpg
+    text: TV-huone ennen
+  - name: ennen7.jpg
+    text: TV-huone ennen
+  - name: tv1.jpg
+    text: TV-huone jälkeen
+  - name: tv2.jpg
+    text: TV-huone jälkeen
+
+- id: kerrostalokolmio
+  description: Kerrostalokolmio
+  imagefolder: /images/kohteita/kerrostalokolmio
+  images:
+  - name: oh_jalk2.jpg
+    thumb: kerrostalo_thumb.jpg
+    text: Olohuone jälkeen
+  - name: et_ennen.jpg
+    text: Eteinen ennen
+  - name: et_jalk1.jpg
+    text: Eteinen jälkeen
+  - name: keittio_ennen1.jpg
+    text: Keittiö ennen
+  - name: keittio_jalk1.jpg
+    text: Keittiö jälkeen
+  - name: mh_ennen1.jpg
+    text: Makuuhuone ennen
+  - name: mh_jalk1.jpg
+    text: Makuuhuone jälkeen
+  - name: pukeutumishuone_ennen1.jpg
+    text: Pukeutumishuone ennen
+  - name: pukeutumishuone_jalk1.jpg
+    text: Pukeutumishuone jälkeen
+  - name: oh_ennen1.jpg
+    text: Olohuone ennen
+  - name: oh_ennen2.jpg
+    text: Olohuone ennen
+  - name: oh_jalk1.jpg
+    text: Olohuone jälkeen
+  - name: oh_jalk2.jpg
+    text: Olohuone jälkeen
+  - name: oh_jalk3.jpg
+    text: Olohuone jälkeen
+
+- id: stailaus_pohjalainen
+  description: Stailaus Pohjalainen-lehti
+  imagefolder: /images/kohteita/stailaus_pohjalainen
+  images:
+  - name: runsas12.jpg
+    thumb: stailaus_thumb.jpg
+    text: Romanttinen stailaus
+  - name: ennen.jpg
+    text: Lähtötilanne ennen stailausta
+  - name: moderni1.jpg
+    text: Moderni stailaus
+  - name: moderni2.jpg
+    text: Moderni stailaus
+  - name: moderni3.jpg
+    text: Moderni stailaus
+  - name: runsas1.jpg
+    text: Romanttinen stailaus
+  - name: runsas2.jpg
+    text: Romanttinen stailaus
+  - name: runsas3.jpg
+    text: Romanttinen stailaus
+  - name: runsas4.jpg
+    text: Romanttinen stailaus
+
+- id: mokki
+  description: Mökki
+  imagefolder: /images/kohteita/mokki
+  images:
   - name: sauna.jpg
-    text: sauna
-  - name: IMG_6763.jpg
-    text: yläaula
-  - name: IMG_6768.jpg
-    text: portaikko
-  - name: IMG_6743.jpg
-    text: vierashuone
-  - name: IMG_6747.jpg
-    text: askarteluhuone
-    
+    thumb: mokki_thumb.jpg
+    text: sauna jälkeen
+  - name: ennen.jpg
+    text: Pesutila ja sauna ennen
+  - name: pesuhuone.jpg
+    text: Pesuhuone jälkeen
+  - name: pesuhuone2.jpg
+    text: Pesuhuone jälkeen
+  - name: sauna.jpg
+    text: Sauna jälkeen
+  - name: loylyhuone.jpg
+    text: Sauna jälkeen
+  - name: ennen1.jpg
+    text: Keittiö ennen
+  - name: ennen2.jpg
+    text: Keittiö ennen
+  - name: jalkeen.jpg
+    text: Keittiö jälkeen
+  - name: jalkeen2.jpg
+    text: Keittiö jälkeen
+ 
+
 
