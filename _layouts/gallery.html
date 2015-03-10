@@ -4,15 +4,18 @@ layout: default
 
 {% include galheader.html %}
 
-<p>default header for all gallery pages</p>
 
 {% for gallery in site.data.galleries %}
-    <h1>{{ gallery.description }}</h1>
+    <h3>{{ gallery.description }}</h3>
     <ol>
-        <a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
-          <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}">
+       <table style="width:100%">
+       <tr>
+         <td><a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
+          <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}"></td>
+          <td>{{gallery.text}}</td>
         </a>
-
+       </tr>
+       </table>
     {% for image in gallery.images %}
         <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"></a>
     {% endfor %}

@@ -1,6 +1,7 @@
 - id: jukkatalo
   description: Jukkatalo asuntomessut 2008
   imagefolder: /images/kohteita/jukkatalo
+  text: "olipahan hianot messut dfsd fds <p>fds fdslfkds fdsfj dslf sdf"
   images:
   - name: jukka1.jpg
     thumb: jukka1_thumb.jpg
