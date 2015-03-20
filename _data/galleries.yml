@@ -1,7 +1,7 @@
 - id: jukkatalo
   description: Jukkatalo asuntomessut 2008
   imagefolder: /images/kohteita/jukkatalo
-  text: "olipahan hianot messut dfsd fds <p>fds fdslfkds fdsfj dslf sdf"
+  text: "Jukkatalo oli Vaasan Asuntomessujen  <p>fds fdslfkds fdsfj dslf sdf"
   images:
   - name: jukka1.jpg
     thumb: jukka1_thumb.jpg
@@ -345,6 +345,75 @@
     text: Keittiö jälkeen
   - name: jalkeen2.jpg
     text: Keittiö jälkeen
+
+- id: messut_09
+  description: Vaasan Rakennusmessut 2009
+  imagefolder: /images/kohteita/messut_09
+  images:
+  - name: IMG_5362.JPG
+    thumb: messut_thumb.JPG
+    text: Messuosasto
+  - name: 20102009_003.jpg
+    text: Messuosaston rakentamista
+  - name: IMG_5390.jpg
+    text: Messuosasto takaa
+  - name: IMG_5342.jpg
+    text: Sisustustuotteet Sisustus Säde
+  - name: IMG_5358.JPG
+    text: Messuosasto
+  - name: IMG_5350.JPG
+    text: Messuosasto
+  - name: IMG_5352.JPG
+    text: Messuosasto
+  - name: IMG_5356.JPG
+    text: Messuosasto
+  - name: IMG_5358.JPG
+    text: Messuosasto
+  - name: IMG_5362.JPG
+    text: Messuosasto
+  - name: IMG_5364.JPG
+    text: Messuosasto
+  - name: IMG_5377.JPG
+    text: Messuosasto
+
+- id: messut_10
+  description: Vaasan Rakennusmessut 2010
+  imagefolder: /images/kohteita/messut_10
+  images:
+  - name: retro1.jpg
+    thumb: messut_thumb.jpg
+    text: Messuosasto Retro
+  - name: retro2.jpg
+    text: Retro messuosasto, jossa kaikki tuotteet kierätettyjä ja     tekstiilit Laura Ulvila
+  - name: retro3.jpg
+    text: Messuosasto Retro
+  - name: retro4.jpg
+    text: Messuosasto Retro
+  - name: moderni1.jpg
+    text: Messuosasto Moderni
+  - name: moderni2.jpg
+    text: Messuosasto Moderni, tuotteet Vepsäläinen, Anttila
+  - name: moderni3.jpg
+    text: Messuosasto Moderni
+  - name: moderni4.jpg
+    text: Messuosasto Moderni
+  - name: moderni5.jpg
+    text: Messuosasto Moderni
+ 
+- id: messut_14
+  description: Vaasan Rakennusmessut 2014
+  imagefolder: /images/kohteita/messut_14
+  images:
+  - name: mv_pieni.JPG
+    thumb: mv_pieni_thumb.JPG
+  - name: valkoinen_pieni.jpg
+    text: Valkoinen neutraali sisustus, johon voidaan lisätä mitä vain
+    text: Sisustusnäytös, tekstiileillä nopeasti eri ilme
+  - name: puu_pieni.JPG
+    text: Kuviollisella verholla ilmettä huoneeseen
+  - name: romanttinen_pieni.JPG
+    text: Pitsiverhot keventävät tilaa
+  
  
 
 
