@@ -1,7 +1,7 @@
 - id: jukkatalo
   description: Jukkatalo asuntomessut 2008
   imagefolder: /images/kohteita/jukkatalo
-  text: "Jukkatalo oli Vaasan Asuntomessujen toinen kohteeni  <p> asiakkaina oli eläkeläispariskunta"
+  text: "Jukkatalo oli Vaasan Asuntomessujen toinen kohteeni  asiakkaina oli eläkeläispariskunta"
   images:
   - name: jukka1.jpg
     thumb: jukka1_thumb.jpg
@@ -32,7 +32,7 @@
 - id: simila
   description: Villa Similä asuntomessut 2008
   imagefolder: /images/kohteita/simila
-  text: "Villa Similä oli Vaasan Asuntomessujen kohteeni, joka voitti myös yleisöäänestyksen parhaana talona <p> Minulla oli kohteessa vapaat kädet sisustuksen kanssa. Valitsin kohteeseen vanhalle huvilalle tyypillisiä materiaaleja, kuten helmipaneelia"
+  text: "Villa Similä oli Vaasan Asuntomessujen kohteeni, joka voitti myös yleisöäänestyksen parhaana talona Minulla oli kohteessa vapaat kädet sisustuksen kanssa. Valitsin kohteeseen vanhalle huvilalle tyypillisiä materiaaleja, kuten helmipaneelia"
   images:
   - name: rh2.jpg
     thumb: simila_thumb.jpg
@@ -72,7 +72,7 @@
 - id: Omakotitalo1
   description: Omakotitalo 1
   imagefolder: /images/kohteita/omakotitalo1
-  text: "Omakotitaloon tehtiin perusteellinen pintaremontti <p> Myös tekstiilit vaihdettiin sekä keittiö uusittiin"
+  text: "Omakotitaloon tehtiin perusteellinen pintaremontti Myös tekstiilit vaihdettiin sekä keittiö uusittiin"
   images:
   - name: eteinen_ennen.JPG
     thumb: omakotitalo2_thumb.JPG
@@ -144,7 +144,7 @@
 - id: Omakotitalo2
   description: Omakotitalo 2
   imagefolder: /images/kohteita/omakotitalo2
-  text: "Omakotitaloon tehtiin kolmen vuoden aikana perusteellinen pintaremontti <p> Ensin uusittiin kuivat tilat ja tekstiilit uusittiin, sekä osa kalusteista. <p> Seuraavana vuonna uusittiin keittiö ja viimeisenä kylpytilat, kodinhoitohuone ja sauna"
+  text: "Omakotitaloon tehtiin kolmen vuoden aikana perusteellinen pintaremontti Ensin uusittiin kuivat tilat ja tekstiilit uusittiin, sekä osa kalusteista. Seuraavana vuonna uusittiin keittiö ja viimeisenä kylpytilat, kodinhoitohuone ja sauna"
   images:
   - name: et_ennen1.jpg
     thumb: omakotitalo2_thumb.jpg
@@ -223,7 +223,7 @@
 - id: kellari
   description: Kellari
   imagefolder: /images/kohteita/kellari
-  text: "Rintamamiestalon kellariin tehtiin pintaremontti. <p> Kodinhoitohuone sai uuden ilmeen ja säilytystilaa lisättiin. <p> Lisäksi televisiohuone uusittiin"
+  text: "Rintamamiestalon kellariin tehtiin pintaremontti. Kodinhoitohuone sai uuden ilmeen ja säilytystilaa lisättiin. Lisäksi televisiohuone uusittiin"
   images:
   - name: tv2.jpg
     thumb: kellari_thumb.jpg
@@ -264,7 +264,7 @@
 - id: kerrostalokolmio
   description: Kerrostalokolmio
   imagefolder: /images/kohteita/kerrostalokolmio
-  text: "70-luvun kerrostalokolmioon tehtiin perusteellinen pintaremontti. <p> Myös keittiö uusittiin ja olohuoneeseen tehtiin kiinteät hyllyt <p> Tekstiilit uusittiin, kalusteet olivat asiakkaan vanhat "
+  text: "70-luvun kerrostalokolmioon tehtiin perusteellinen pintaremontti. Myös keittiö uusittiin ja olohuoneeseen tehtiin kiinteät hyllyt Tekstiilit uusittiin, kalusteet olivat asiakkaan vanhat "
   images:
   - name: oh_jalk2.jpg
     thumb: kerrostalo_thumb.jpg
@@ -299,7 +299,7 @@
 - id: stailaus_pohjalainen
   description: Stailaus Pohjalainen-lehti
   imagefolder: /images/kohteita/stailaus_pohjalainen
-  text: "Pohjalainen-lehteen tekemäni stailaus makuuhuoneesta. <p> Lähtökohta oli hyvin valkoinen ja siihen oli helppo vaihtaa kaksi erilaista tyyliä. <p> Ensimmäinen oli modernimpi ja toinen romanttisempi."
+  text: "Pohjalainen-lehteen tekemäni stailaus makuuhuoneesta. Lähtökohta oli hyvin valkoinen ja siihen oli helppo vaihtaa kaksi erilaista tyyliä. Ensimmäinen oli modernimpi ja toinen romanttisempi."
   images:
   - name: runsas12.jpg
     thumb: stailaus_thumb.jpg
@@ -351,7 +351,7 @@
 - id: messut_09
   description: Vaasan Rakennusmessut 2009
   imagefolder: /images/kohteita/messut_09
-  text: " Kolme suunnittelijaa teki messuille erilaiset olotilat eli huoneet. <p> Minun olotilani oli hyvin runsas ja rustiikkinen, lämmin huone, joka sopi hyvin syksyyn milloin messut järjestettiin."
+  text: " Kolme suunnittelijaa teki messuille erilaiset olotilat eli huoneet. Minun olotilani oli hyvin runsas ja rustiikkinen, lämmin huone, joka sopi hyvin syksyyn milloin messut järjestettiin."
   images:
   - name: IMG_5362.JPG
     thumb: messut_thumb.JPG
@@ -382,7 +382,7 @@
 - id: messut_10
   description: Vaasan Rakennusmessut 2010
   imagefolder: /images/kohteita/messut_10
-  text: "Suunnittelin messuille kaksi erilaista tilaa <p> Ensimmäisessä tilassa kaikki tuotteet olivat vanhoja, kierrätettyjä. <p> Toisessa tilassa taas tuotteet olivat moderneja klassikoita, jotka silti olivat eläneet jo pitkään. <p> Vaikka tilat olivat täysin erilaiset oli niissä sanoma sama, kestävä ja laadukas sisustaminen "
+  text: "Suunnittelin messuille kaksi erilaista tilaa Ensimmäisessä tilassa kaikki tuotteet olivat vanhoja, kierrätettyjä. Toisessa tilassa taas tuotteet olivat moderneja klassikoita, jotka silti olivat eläneet jo pitkään. Vaikka tilat olivat täysin erilaiset oli niissä sanoma sama, kestävä ja laadukas sisustaminen "
   images:
   - name: retro1.jpg
     thumb: messut_thumb.jpg
@@ -407,7 +407,7 @@
 - id: messut_14
   description: Vaasan Rakennusmessut 2014
   imagefolder: /images/kohteita/messut_14
-  text: "Pidin messuilla sisustusnäytöksiä jossa näytin miten nopeasti tekstiileillä saa vaihdettua ilmettä <p> Lähtökohtana oli vaalea ja siihen oli helppo yhdistää eri tyylejä ja värejä <p> Tuotteet oli kotimaisia ja laadukkaita. Junet, VM-Carpet, Lennol. "
+  text: "Pidin messuilla sisustusnäytöksiä jossa näytin miten nopeasti tekstiileillä saa vaihdettua ilmettä Lähtökohtana oli vaalea ja siihen oli helppo yhdistää eri tyylejä ja värejä Tuotteet oli kotimaisia ja laadukkaita. Junet, VM-Carpet, Lennol. "
   images:
   - name: mv_pieni.JPG
     thumb: mv_pieni_thumb.JPG
@@ -421,7 +421,7 @@
 - id: kesakoti
   description: Kesäkoti
   imagefolder: /images/kohteita/kesakoti
-  text: "Kesäkoti oli Turun Saaristossa sijaitseva vanha talo, <p> joka remontoitiin täysin sisältä ja ulkoa. <p> Ovia ja ikkunoita lisättiin, terassi tehtiin ja kaikki pinnat uusittiin. <p> Kalusteet ja tekstiilit olivat asiakkaiden hakkimat. "
+  text: "Kesäkoti oli Turun Saaristossa sijaitseva vanha talo, joka remontoitiin täysin sisältä ja ulkoa. Ovia ja ikkunoita lisättiin, terassi tehtiin ja kaikki pinnat uusittiin. Kalusteet ja tekstiilit olivat asiakkaiden hakkimat. "
   images:
   - name: oh.jpg
     thumb: kesakoti_thumb.jpg
@@ -462,7 +462,7 @@
 - id: hammis
   description: Hammaslääkärin vastaanottohuone
   imagefolder: /images/kohteita/hammis
-  text: "Hammaslääkärin vastaanottohuoneen pintaremontti. <p> Hammaslääkäri oli erikoistunut oikomishoitihin, <p> joten vastaanotolla kävi paljon lapsia. <p> Värimaailma valittiin jo olemassa olevista julisteista."
+  text: "Hammaslääkärin vastaanottohuoneen pintaremontti. Hammaslääkäri oli erikoistunut oikomishoitihin, joten vastaanotolla kävi paljon lapsia. Värimaailma valittiin jo olemassa olevista julisteista."
   images:
   - name: hammis_thumb.jpg
     thumb: hammis_thumb.jpg
@@ -476,7 +476,7 @@
 - id: henkilostoruokala
   description: Henkilöstöruokala
   imagefolder: /images/kohteita/henkilostoruokala
-  text: "Työpaikan henkilöstöruokalaan tehtiin pintaremontti. <p> Koska vanhat huonekalut säilytettiin, päätettiin sisustus pitää retrona, <p> jota sopii yhteen kalusteiden kanssa."
+  text: "Työpaikan henkilöstöruokalaan tehtiin pintaremontti. Koska vanhat huonekalut säilytettiin, päätettiin sisustus pitää retrona, jota sopii yhteen kalusteiden kanssa."
   images:
   - name: img_2025_thumb.jpg
     thumb: img_2025_thumb.jpg
@@ -488,7 +488,7 @@
 - id: vabene
   description: Vabene Keittiökalustemyymälä
   imagefolder: /images/kohteita/vabene
-  text: "Keittiökalustemyymälän pintaremontti. <p> Pintamateriaalit valittiin keittiö- ja kylpyhuonekokonaisuuksien mukaan."
+  text: "Keittiökalustemyymälän pintaremontti. Pintamateriaalit valittiin keittiö- ja kylpyhuonekokonaisuuksien mukaan."
   images:
   - name: kaikki_thumb.jpg
     thumb: kaikki_thumb.jpg
