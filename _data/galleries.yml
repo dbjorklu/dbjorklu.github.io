@@ -74,10 +74,8 @@
   imagefolder: /images/kohteita/omakotitalo1
   text: "Omakotitaloon tehtiin perusteellinen pintaremontti <p> Myös tekstiilit vaihdettiin sekä keittiö uusittiin"
   images:
-  - name: oh5_jalk.JPG
-    thumb: omakotitalo2_thumb.JPG
-    text: Olohuone jälkeen
   - name: eteinen_ennen.JPG
+    thumb: omakotitalo2_thumb.JPG
     text: Eteinen ennen
   - name: eteinen2_ennen.JPG
     text: Eteinen ennen
@@ -148,10 +146,8 @@
   imagefolder: /images/kohteita/omakotitalo2
   text: "Omakotitaloon tehtiin kolmen vuoden aikana perusteellinen pintaremontti <p> Ensin uusittiin kuivat tilat ja tekstiilit uusittiin, sekä osa kalusteista. <p> Seuraavana vuonna uusittiin keittiö ja viimeisenä kylpytilat, kodinhoitohuone ja sauna"
   images:
-  - name: oh_jalk2.jpg
-    thumb: omakotitalo2_thumb.jpg
-    text: Olohuone jälkeen
   - name: et_ennen1.jpg
+    thumb: omakotitalo2_thumb.jpg
     text: Eteinen ennen
   - name: et_jalk1.jpg
     text: Eteinen jälkeen
