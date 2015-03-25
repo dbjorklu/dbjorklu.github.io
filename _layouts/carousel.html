@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js" lang="fi">
+{% if page.carousel %}
+<!-- Google CDN Hosted jQuery  -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<!-- Flexslider Library  -->
+<script src="/js/jquery.flexslider-min.js"></script>
+<!-- Initialisation Code  -->
+<script src="/js/app.js"></script>
+{% endif %}
+
+{% include head.html %}
+<body class="container-fluid {{ page.class }}">
+  {% include fi/header.html %}
+  {% if page.carousel %}
+  <center>
+  <div class="flexslider">
+    <ul class="slides">
+      {% for slides in page.carousel %}
+      <li>
+        <img src="{{ slides.image }}" style="width:600px;height:328px">
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <center>
+  {% endif %}
+  {{ content }}
+  {% include fi/footer.html %}
+</body>
+
+</html>
