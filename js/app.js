@@ -4,7 +4,7 @@ $(window).load(function() {
     animation: "slide",
     controlNav: false,
     directionNav: false,
-    slideshowSpeed: 1000,
+    slideshowSpeed: 4000,
     animationSpeed: 600,
     touch: true
     });
