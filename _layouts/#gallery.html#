@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{% include galheader.html %}
+<style>
+#left {
+    width: 50%;
+    float:left;
+    padding: 5px;
+}
+
+#right {
+    width: 50%;
+    float:left;
+    padding: 5px;
+}
+</style>
+<style>
+table { 
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+</style>
+
+{% for gallery in site.data.galleries %}
+ {% assign loopindex = forloop.index | modulo: 2 %}
+ {% if loopindex == 1 %}
+    <div id="left">
+ {% else %}
+    <div id="right">
+ {% endif %}
+    <h3>{{ gallery.description }}</h3>
+       <table style="width:85%">
+       <tr>
+         <td><a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
+          <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}"></td>
+          <td><small>{{gallery.text}}</small></td>
+        </a>
+       </tr>
+       </table>
+    {% for image in gallery.images %}
+        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"></a>
+    {% endfor %}
+    </div>
+{% endfor %}
+
