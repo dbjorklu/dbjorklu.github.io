@@ -266,10 +266,8 @@
   imagefolder: /images/kohteita/kerrostalokolmio
   text: "70-luvun kerrostalokolmioon tehtiin perusteellinen pintaremontti. Myös keittiö uusittiin ja olohuoneeseen tehtiin kiinteät hyllyt Tekstiilit uusittiin, kalusteet olivat asiakkaan vanhat "
   images:
-  - name: oh_jalk2.jpg
-    thumb: kerrostalo_thumb.jpg
-    text: Olohuone jälkeen
   - name: et_ennen.jpg
+    thumb: kerrostalo_thumb.jpg
     text: Eteinen ennen
   - name: et_jalk1.jpg
     text: Eteinen jälkeen
@@ -301,10 +299,8 @@
   imagefolder: /images/kohteita/stailaus_pohjalainen
   text: "Pohjalainen-lehteen tekemäni stailaus makuuhuoneesta. Lähtökohta oli hyvin valkoinen ja siihen oli helppo vaihtaa kaksi erilaista tyyliä. Ensimmäinen oli modernimpi ja toinen romanttisempi."
   images:
-  - name: runsas12.jpg
-    thumb: stailaus_thumb.jpg
-    text: Romanttinen stailaus
   - name: ennen.jpg
+    thumb: stailaus_thumb.jpg
     text: Lähtötilanne ennen stailausta
   - name: moderni1.jpg
     text: Moderni stailaus
@@ -326,10 +322,8 @@
   imagefolder: /images/kohteita/mokki
   text: "Ensin mökkiin uusittiin sauna ja seuraavana vuonna keittiö"
   images:
-  - name: sauna.jpg
-    thumb: mokki_thumb.jpg
-    text: sauna jälkeen
   - name: ennen.jpg
+    thumb: mokki_thumb.jpg
     text: Pesutila ja sauna ennen
   - name: pesuhuone.jpg
     text: Pesuhuone jälkeen
@@ -353,11 +347,9 @@
   imagefolder: /images/kohteita/messut_09
   text: " Kolme suunnittelijaa teki messuille erilaiset olotilat eli huoneet. Minun olotilani oli hyvin runsas ja rustiikkinen, lämmin huone, joka sopi hyvin syksyyn milloin messut järjestettiin."
   images:
-  - name: IMG_5362.JPG
+  - name: 20102009_003.JPG
     thumb: messut_thumb.JPG
-    text: Messuosasto
-  - name: 20102009_003.jpg
-    text: Messuosaston rakentamista
+    text: Messuosaston rakentaminen
   - name: IMG_5390.jpg
     text: Messuosasto takaa
   - name: IMG_5342.jpg
@@ -464,9 +456,8 @@
   imagefolder: /images/kohteita/hammis
   text: "Hammaslääkärin vastaanottohuoneen pintaremontti. Hammaslääkäri oli erikoistunut oikomishoitihin, joten vastaanotolla kävi paljon lapsia. Värimaailma valittiin jo olemassa olevista julisteista."
   images:
-  - name: hammis_thumb.jpg
-    thumb: hammis_thumb.jpg
   - name: ennen_jalkeen_ikkunas.jpg
+    thumb: hammis_thumb.jpg
     text: Vastaanottohuone ennen ja jälkeen muutoksen.
   - name: ennen_jalkeen_ovis.jpg
     text: Vastaanottohuone oviseinä ennen ja jälkeen muutoksen.
@@ -490,14 +481,56 @@
   imagefolder: /images/kohteita/vabene
   text: "Keittiökalustemyymälän pintaremontti. Pintamateriaalit valittiin keittiö- ja kylpyhuonekokonaisuuksien mukaan."
   images:
-  - name: kaikki_thumb.jpg
-    thumb: kaikki_thumb.jpg
   - name: ennen1.jpg
+    thumb: kaikki_thumb.JPG
     text: Myymälä ennen remonttia. Lattia oli levoton ja olisi vienyt huomion kalusteilta.
-  - name: kaikki_pieni.jpg
-    text: Tekstiilien kuvio mukailee takaseinän kuviota.
+  - name: kaikki_pieni.JPG
+    text: Myymälä remontin jälkeen. Pinnat ovat vaaleat ja raikkaat.
+  - name: keittio1_pieni.JPG
+    text: Keittiön takaseinään valittiin tapetti.
+  - name: keittio2_2_pieni.JPG
+    text: Betonimainen laatta tuo elätyyttä ja kontrasteja kiiltävän ja puupinnan kanssa.
+  - name: keittio3_pieni.JPG
+    text: Vaaleat pinnat antavat raikkautta ja keveyttä tummille kivipinnoille.
+  - name: kph2_pieni.JPG
+    text: Pirteä keltainen maali tuo harmaat kaapit ihasti esille..
+  - name: kph_pieni_pieni.JPG
+    text: Seinä maalattiin betonimaisella Lumo maalilla.
 
-
+- id: skanska
+  description: Skanskan esittelyasunnon stailaus
+  imagefolder: /images/kohteita/skanska
+  text: "Skanskan rakennuttaman kerrostalon esimerkkiasunnon stailaus."
+  images:
+  - name: ennen.jpg
+    thumb: skanska_thumb.JPG
+    text: Asunto oli ennen stailaus täysin tyhjä, seinät valkoiset, lattiat tammiparkettia.
+  - name: eteinen1.JPG
+    text: Stailattu eteinen, kalusteet Junet, tekstiilit Anttila ja Minimani.
+  - name: eteinen1.JPG
+    text: Stailattu eteinen, kalusteet Junet, tekstiilit Anttila ja Minimani.
+  - name: eteinen2.JPG
+    text: Stailattu eteinen.
+  - name: oh1.JPG
+    text: Stailattu olohuone.
+  - name: oh2.jpg
+    text: Stailattu olohuone.
+  - name: oh3.JPG
+    text: Näkymä keittiöstä olohuoneeseen.
+  - name: keittio.jpg
+    text: Keittiö, valaisimet Virvatuli.
+  - name: ruokatila.JPG
+    text: Näkymä keittiöön ja eteiseen.
+  - name: mh1.JPG
+    text: Makuuhuone, sänky Ikea.
+  - name: tyoh1.jpg
+    text: Työhuone, verhot Eurokangas.
+  - name: kph1.jpg
+    text: Kylpyhuone.
+  - name: sauna.JPG
+    text: Sauna.
+  - name: parveke.JPG
+    text: Parveke, tekstiilit Asko.
 
 
 
