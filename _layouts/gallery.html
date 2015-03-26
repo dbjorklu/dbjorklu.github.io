@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include galheader.html %}
-<center>
 <style>
 #left {
     width: 50%;
@@ -16,7 +14,15 @@ layout: default
     float:right;
     padding: 5px;
 }
+
+#mid {
+  margin-left:auto;
+  margin-right:auto;
+  width: 65%;
+}
 </style>
+
+{% include galheader.html %}
 <style>
 table { 
     display: table;
@@ -25,6 +31,7 @@ table {
 }
 </style>
 
+<div id=mid>
 {% for gallery in site.data.galleries %}
  {% assign loopindex = forloop.index | modulo: 2 %}
  {% if loopindex == 1 %}
@@ -32,12 +39,14 @@ table {
  {% else %}
     <div id="right">
  {% endif %}
-    <h3>{{ gallery.description }}</h3>
-       <table style="width:85%">
+    <h4>{{ gallery.description }}</h4>
+       <table style="width:100%">
        <tr>
          <td><a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
           <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}"></td>
+         <tr>
           <td><small>{{gallery.text}}</small></td>
+         </tr>
         </a>
        </tr>
        </table>
@@ -46,4 +55,5 @@ table {
     {% endfor %}
     </div>
 {% endfor %}
-</center>
+</div>
+
