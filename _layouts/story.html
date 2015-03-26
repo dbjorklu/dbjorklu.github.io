@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="fi">
+
+<style>
+#left {
+    width: 70%;
+    float:left;
+    padding: 5px;
+}
+
+#right {
+    width: 30%;
+    float:right;
+    padding: 5px;
+}
+</style>
+
+
+
+{% include head.html %}
+<body class="container-fluid {{ page.class }}">
+  {% include fi/header.html %}
+  <div role="main" class="main {{ page.main-class }}">
+    {{ content }}
+	</div>
+
+</body>
+</html>
+
+
