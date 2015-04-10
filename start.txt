@@ -1,4 +1,14 @@
 https://help.github.com/articles/using-jekyll-with-pages/
 
-sudo apt-get install ruby1.9.1-dev
+#sudo apt-get install ruby1.9.1-dev
+sudo apt-get install ruby2.0-dev
+
 sudo apt-get install nodejs
+
+sudo gem install bundler
+
+gem install RedCloth -v '4.2.9'lib64z1-dev 
+sudo apt-get install lib64z1-dev 
+
+bundle install
+
