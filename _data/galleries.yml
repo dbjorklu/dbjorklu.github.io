@@ -1,33 +1,4 @@
-- id: jukkatalo
-  description: Jukkatalo asuntomessut 2008
-  imagefolder: /images/kohteita/jukkatalo
-  text: "Jukkatalo oli Vaasan Asuntomessujen toinen kohteeni  asiakkaina oli eläkeläispariskunta"
-  images:
-  - name: jukka1.jpg
-    thumb: jukka1_thumb.jpg
-    text: Ruokatila
-  - name: IMG_6459.jpg
-    text: Portaikko ja takkahuone
-  - name: mh.jpg
-    text: Makuuhuone
-  - name: IMG_6727.jpg
-    text: Keittiö ja eteinen
-  - name: keittio.jpg
-    text: Keittiö
-  - name: IMG_6793.jpg
-    text: wc
-  - name: IMG_6820.jpg
-    text: kylpyhuone
-  - name: IMG_6763.jpg
-    text: foobar
-  - name: IMG_6820.jpg
-    text: Sauna
-  - name: IMG_6768.jpg
-    text: portaikko
-  - name: IMG_6743.jpg
-    text: vierashuone
-  - name: IMG_6747.jpg
-    text: askarteluhuone
+
 
 - id: simila
   description: Villa Similä asuntomessut 2008
@@ -68,6 +39,37 @@
     text: WC Saunarakennus
   - name: sauna.jpg
     text: Sauna
+
+- id: jukkatalo
+  description: Jukkatalo asuntomessut 2008
+  imagefolder: /images/kohteita/jukkatalo
+  text: "Jukkatalo oli Vaasan Asuntomessujen toinen kohteeni  asiakkaina oli eläkeläispariskunta"
+  images:
+  - name: jukka1.jpg
+    thumb: jukka1_thumb.jpg
+    text: Ruokatila
+  - name: IMG_6459.jpg
+    text: Portaikko ja takkahuone
+  - name: mh.jpg
+    text: Makuuhuone
+  - name: IMG_6727.jpg
+    text: Keittiö ja eteinen
+  - name: keittio.jpg
+    text: Keittiö
+  - name: IMG_6793.jpg
+    text: wc
+  - name: IMG_6820.jpg
+    text: kylpyhuone
+  - name: IMG_6763.jpg
+    text: foobar
+  - name: IMG_6820.jpg
+    text: Sauna
+  - name: IMG_6768.jpg
+    text: portaikko
+  - name: IMG_6743.jpg
+    text: vierashuone
+  - name: IMG_6747.jpg
+    text: askarteluhuone
 
 - id: Omakotitalo1
   description: Omakotitalo 1
