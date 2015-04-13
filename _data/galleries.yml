@@ -225,10 +225,8 @@
   imagefolder: /images/kohteita/kellari
   text: "Rintamamiestalon kellariin tehtiin pintaremontti. Kodinhoitohuone sai uuden ilmeen ja säilytystilaa lisättiin. Lisäksi televisiohuone uusittiin"
   images:
-  - name: tv2.jpg
-    thumb: kellari_thumb.jpg
-    text: Tv-huone jälkeen
   - name: ennen1.jpg
+    thumb: kellari_thumb.jpg
     text: Portaikko ennen
   - name: ennen2.jpg
     text: Portaikko ennen
@@ -402,7 +400,7 @@
   text: "Pidin messuilla sisustusnäytöksiä jossa näytin miten nopeasti tekstiileillä saa vaihdettua ilmettä Lähtökohtana oli vaalea ja siihen oli helppo yhdistää eri tyylejä ja värejä Tuotteet oli kotimaisia ja laadukkaita. Junet, VM-Carpet, Lennol. "
   images:
   - name: mv_pieni.JPG
-    thumb: mv_pieni_thumb.JPG
+    thumb: mv_thumb.JPG
   - name: valkoinen_pieni.jpg
     text: Valkoinen neutraali sisustus, johon voidaan lisätä mitä vain
   - name: puu_pieni.JPG
@@ -457,7 +455,7 @@
   text: "Hammaslääkärin vastaanottohuoneen pintaremontti. Hammaslääkäri oli erikoistunut oikomishoitihin, joten vastaanotolla kävi paljon lapsia. Värimaailma valittiin jo olemassa olevista julisteista."
   images:
   - name: ennen_jalkeen_ikkunas.jpg
-    thumb: hammis_thumb.jpg
+    thumb: hammas_thumb.jpg
     text: Vastaanottohuone ennen ja jälkeen muutoksen.
   - name: ennen_jalkeen_ovis.jpg
     text: Vastaanottohuone oviseinä ennen ja jälkeen muutoksen.
