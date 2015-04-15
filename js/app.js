@@ -1,5 +1,7 @@
 // Initialise FlexSlider for Carousels
-$(window).load(function() {
+//$(window).load(function() {
+
+$(document).ready(function() {
     $('.flexslider').flexslider({
     animation: "slide",
     controlNav: false,
@@ -7,6 +9,8 @@ $(window).load(function() {
     slideshowSpeed: 4000,
     animationSpeed: 600,
     touch: true
+///    start: function(){
+ //      $('.flexImages').show();
+ //   },
     });
 });
-
