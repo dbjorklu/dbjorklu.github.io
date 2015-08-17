@@ -3,8 +3,9 @@
 
 $(document).ready(function() {
     $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: false,
+    animation: "fade",
+        controlNav: false,
+        pauseOnHover: true,
     directionNav: false,
     slideshowSpeed: 4000,
     animationSpeed: 600,
