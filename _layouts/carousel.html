@@ -15,11 +15,11 @@
   {% include fi/header.html %}
   {% if page.carousel %}
   <center>
-  <div class="flexslider">
+  <div class="flexslider" style="height:492px">
     <ul class="slides">
       {% for slides in page.carousel %}
       <li>
-        <img src="{{ slides.image }}" style="width:600px;height:328px">
+        <img src="{{ slides.image }}" style="width:900px;height:492px">
       </li>
       {% endfor %}
     </ul>
