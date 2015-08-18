@@ -1,6 +1,3 @@
-- id: yksityiset
-  description: Yksityiset kohteet
-
 - id: kellari
   description: Kellari
   imagefolder: /images/kohteita/kellari
@@ -39,9 +36,6 @@
     text: TV-huone jälkeen
   - name: tv2.jpg
     text: TV-huone jälkeen
-
-- id: julkiset kohteet
-  description: Julkiset kohteet
 
 - id: vabene
   description: Vabene Keittiökalustemyymälä
