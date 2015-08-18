@@ -24,7 +24,7 @@ layout: default
 
 {% include galheader.html %}
 <style>
-table { 
+table {
     display: table;
     border-collapse: separate;
     border-spacing: 10px;
@@ -32,28 +32,28 @@ table {
 </style>
 
 <div id=mid>
-{% for gallery in site.data.galleries %}
- {% assign loopindex = forloop.index | modulo: 2 %}
- {% if loopindex == 1 %}
-    <div id="left">
+  <table style="width:100%">
+    {% for gallery in site.data.galleries %}
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% if loopindex == 1 %}
+<tr>
+  <!--   <div id="left"> -->
  {% else %}
-    <div id="right">
- {% endif %}
-    <h4>{{ gallery.description }}</h4>
-       <table style="width:100%">
-       <tr>
-         <td><a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
-          <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}"></td>
-         <tr>
-          <td><small>{{gallery.text}}</small></td>
-         </tr>
-        </a>
-       </tr>
-       </table>
+<!--     <div id="right"> -->
+{% endif %}
+  <td valign="top">
+    <h4>{{ gallery.description }}</h4><br>
+          <a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
+            <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}" ></a>
+          <br>
+          <small>{{gallery.text}}</small>
+  </td>
     {% for image in gallery.images %}
         <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"></a>
-    {% endfor %}
-    </div>
+        {% endfor %}
+        {% if loopindex == 2 %}
+        </tr>
+        {% endif %}
 {% endfor %}
+    </table>
 </div>
-
