@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: story
 ---
 
 <style>
@@ -18,7 +18,7 @@ layout: default
 #mid {
   margin-left:auto;
   margin-right:auto;
-  width: 65%;
+  max-width: 65%;
 }
 </style>
 
@@ -31,15 +31,14 @@ table {
 }
 </style>
 
-<div id=mid>
-  <table style="width:100%">
+<!-- ><div id=mid> -->
+  <table style="max-width:100%">
+    <tr><td><h2>{{page.col1title}}</h2></td><td style="min-width:90px"></td><td><h2>{{page.col2title}}</h2></td></tr>
     {% for gallery in site.data.galleries %}
     {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
-<tr>
-  <!--   <div id="left"> -->
+    <tr>
  {% else %}
-<!--     <div id="right"> -->
 {% endif %}
   <td valign="top">
     <h4>{{ gallery.description }}</h4><br>
@@ -47,7 +46,7 @@ table {
             <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}" ></a>
           <br>
           <small>{{gallery.text}}</small>
-  </td>
+  </td><td style="min-width:90px"></td>
     {% for image in gallery.images %}
         <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"></a>
         {% endfor %}
@@ -56,4 +55,4 @@ table {
         {% endif %}
 {% endfor %}
     </table>
-</div>
+<!-- ></div> -->
