@@ -32,27 +32,30 @@ table {
 </style>
 
 <!-- ><div id=mid> -->
+<center>
   <table style="max-width:100%">
     <tr><td><h2>{{page.col1title}}</h2></td><td style="min-width:90px"></td><td><h2>{{page.col2title}}</h2></td></tr>
     {% for gallery in site.data.galleries %}
-    {% assign loopindex = forloop.index | modulo: 2 %}
-    {% if loopindex == 1 %}
-    <tr>
- {% else %}
-{% endif %}
-  <td valign="top">
-    <h4>{{ gallery.description }}</h4><br>
-          <a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" data-lightbox="{{ gallery.id }}" title="{{ gallery.inmages.first.text }}">
-            <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}" ></a>
-          <br>
-          <small>{{gallery.text}}</small>
-  </td><td style="min-width:90px"></td>
-    {% for image in gallery.images %}
-        <a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}"></a>
-        {% endfor %}
+       {% assign loopindex = forloop.index | modulo: 2 %}
+       {% if loopindex == 1 %}
+         <tr>
+       {% else %}
+       {% endif %}
+       <td valign="top">
+       <h4>{{ gallery.description }}</h4><br>
+       <a href="{{ gallery.imagefolder }}/{{ gallery.images.first.name }}" rel="lightbox[{{ gallery.id }}]">
+         <img src="{{ gallery.imagefolder }}/{{ gallery.images.first.thumb }}" title="{{ gallery.inmages.first.text }}">
+       </a>
+       {% for image in gallery.images %}
+          <a href="{{ gallery.imagefolder }}/{{ image.name }}" rel="lightbox[{{ gallery.id }}]" title="{{ image.text }}"></a>
+       {% endfor %}
+       <br>
+       <small>{{gallery.text}}</small>
+        </td><td style="min-width:90px"></td>
         {% if loopindex == 2 %}
         </tr>
         {% endif %}
 {% endfor %}
-    </table>
+  </table>
+  </center>
 <!-- ></div> -->
