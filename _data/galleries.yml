@@ -470,9 +470,9 @@
   imagefolder: /images/kohteita/kesakoti
   text: "Kesäkoti oli Turun Saaristossa sijaitseva vanha talo, joka remontoitiin täysin sisältä ja ulkoa. Ovia ja ikkunoita lisättiin, terassi tehtiin ja kaikki pinnat uusittiin. Kalusteet ja tekstiilit olivat asiakkaiden hakkimat. "
   images:
-  - name: oh.jpg
-    thumb: kesakoti_thumb.jpg
+
   - name: ennen_talo_edesta.jpg
+    thumb: kesakoti_thumb.jpg
     text: Talo ennen remonttia edestä
   - name: talo_edesta.jpg
     text: Talo edestä remontin jälkeen, uudet ikkunat, ovet ja terassi.
@@ -484,10 +484,10 @@
     text: Talo sisältä ennen remonttia
   - name: ennen_oh2.jpg
     text: Talo sisältä ennen remonttia
-  - name: ennen_portaikko.jpg
-    text: Portaikko ennen remonttia
   - name: oh.jpg
     text: Olohuone remontin jälkeen, väliseinä poistettu
+  - name: ennen_portaikko.jpg
+    text: Portaikko ennen remonttia
   - name: keittio.jpg
     text: Keittiö remontin jälkeen
   - name: ovet.jpg
