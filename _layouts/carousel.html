@@ -12,7 +12,11 @@
 
 {% include head.html %}
 <body class="container-fluid {{ page.class }}">
+  {% if page.lang == "fi" %}
   {% include fi/header.html %}
+  {% else %}
+  {% include sv/header.html %}
+  {% endif %}
   {% if page.carousel %}
   <center>
   <div class="flexslider" style="max-width:100%;height:592px">
