@@ -7,7 +7,7 @@ $(document).ready(function() {
         controlNav: false,
         pauseOnHover: true,
     directionNav: false,
-    slideshowSpeed: 9000,
+    slideshowSpeed: 4000,
     animationSpeed: 600,
     touch: true
 ///    start: function(){
