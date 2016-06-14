@@ -19,9 +19,9 @@
   - name: kellari3.jpg
     text: Kotikuntosali remontin jälkeen
   - name: kellari4.jpg
-    text: Kotikuntosali remontin jälkeen 
+    text: Kotikuntosali remontin jälkeen
 
- - id: /images/kohteita/kpmg
+- id: kpmg
   description: KPMG Vaasa
   imagefolder: /images/kohteita/kpmg
   text: "Toimiston kokonaisvaltainen remontti. Pinnat, tekstiilit, kalusteet uusittiin"
@@ -56,6 +56,7 @@
   - name: 2h_ennen.jpg
     text: Kahden hengen työhuone ennen remonttia
   - name: 2h_jalk.jpg
+    text: Kahden hengen työhuone remontin jälkeen
   - name: markku_ennen.jpg
     text: Johtajan työhuone ennen remonttia
   - name: markku_jalk.jpg
@@ -74,7 +75,6 @@
     text: WC remontin jälkeen
 
 
-  
 
 - id: kellari
   description: Kellari
@@ -353,6 +353,7 @@
   - name: oh1.jpg
     text: Olohuone
   - name: khh.jpg
+    text: kodinhoitohuone
   - name: th.jpg
     text: Työhuone
   - name: kph1.jpg
@@ -621,7 +622,7 @@
   - name: ennen_jalkeen_taulut.jpg
     text: Taulut joista värimaailma valittiin.
 
- - id: /images/kohteita/neste_kotipizza
+- id: neste_kotipizza
   description: Neste-Kotipizza Kristiinankaupunki
   imagefolder: /images/kohteita/neste_kotipizza
   text: "Neste-Kotipizzan kokonaisvaltainen remontti. Kaikki pinnat uusittiin ulkoa ja sisältä, kalusteet ja valaistus uusittiin"
@@ -774,5 +775,3 @@
     text: Osasto
   - name: 19.JPG
     text: Osasto
-
-
