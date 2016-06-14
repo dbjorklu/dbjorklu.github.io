@@ -699,6 +699,37 @@
   - name: sauna.JPG
     text: Sauna
 
+- id: /images/kohteita/messut_16_kevat
+  description: Suurmessut Vaasa 2016
+  imagefolder: /images/kohteita/messut_16_kevat
+  text: "Suurmessujen pihaosastolle sisustettu osasto teemalla Juhat ulkona"
+  images:
+  - name: messut10.JPG
+    thumb: messut_16_kevat_thumb.jpg
+    text: Messuosasto
+  - name: messut11.JPG
+    text: Messuosasto
+  - name: messut2.JPG
+    text: Kattaus
+  - name: messut3.JPG
+    text: Kattaus
+  - name: messut4.JPG
+    text: Oksat
+  - name: messut5.JPG
+    text: Kukkia
+  - name: messut6.JPG
+    text: Retkievästä
+  - name: messut7.JPG
+    text: pom pomit
+  - name: messut1.JPG
+    text: Piknik
+  - name: messut9.JPG
+    text: Neuvontapiste
+  - name: messut8.JPG
+    text: Neuvontapiste
+  - name: messut12.JPG
+    text: Neuvontapiste
+
 - id: /images/kohteita/messut_15
   description: Vaasan Rakennusmessut 2015
   imagefolder: /images/kohteita/messut_15
