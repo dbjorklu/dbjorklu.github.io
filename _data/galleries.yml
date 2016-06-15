@@ -4,7 +4,7 @@
   text: "Omakotitalon kotikuntosali koki muodonmuutoksen uusilla pintamateriaaleilla ja tekstiileillä, akustiikkaa unohtamatta"
   images:
   - name: ennen_kellari3.jpg
-    thumb: kotikuntosali_thumb.jpg
+    thumb: kellari3_thumb.jpg
     text: Kellarin sisäänkäynti ennen
   - name: kellari5.jpg
     text: Kellarin sisääkäynti remontin jälkeen
@@ -27,7 +27,7 @@
   text: "Toimiston kokonaisvaltainen remontti. Pinnat, tekstiilit, kalusteet uusittiin"
   images:
   - name: etuaula_ennen.jpg
-    thumb: kpmg_thumb.jpg
+    thumb: uusi_jalk2_thumb.jpg
     text: Sisäänkäynti ennen
   - name: etuosa_ennen.jpg
     text: Sisäänkäynti ennen
@@ -74,7 +74,159 @@
   - name: wc_jalk.jpg
     text: WC remontin jälkeen
 
+- id: neste_kotipizza
+  description: Neste-Kotipizza Kristiinankaupunki
+  imagefolder: /images/kohteita/neste_kotipizza
+  text: "Neste-Kotipizzan kokonaisvaltainen remontti. Kaikki pinnat uusittiin ulkoa ja sisältä, kalusteet ja valaistus uusittiin"
+  images:
+  - name: ennen_ulkoa.jpg
+    thumb: jalk1_thumb.jpg
+    text: Julkisivu ennen
+  - name: ennen_ulkoa2.jpg
+    text: Julkisivu ennen
+  - name: jalk_ulkoa.jpg
+    text: Julkisivu remontin jälkeen
+  - name: jalk_ulkoa2.jpg
+    text: Julkisivu remontin jälkeen
+  - name: ennen1.jpg
+    text: Kahvila ennen
+  - name: jalk1.jpg
+    text: Kahvila remontin jälkeen
+  - name: ennen2.jpg
+    text: Tiski ennen remonttia
+  - name: jalk4.jpg
+    text: Tiski remontin jälkeen
+  - name: ennen3.jpg
+    text: Myymälä ennen remonttia
+  - name: jalk5.jpg
+    text: Myymälä remontin jälkeen
+  - name: wc_ennen.jpg
+    text: WC ennen remonttia
+  - name: jalk2.jpg
+    text: Naisten/Inva-wc remontin jälkeen
+  - name: jalk3.jpg
+    text: Miesten wc remontin jälkeen
 
+- id: /images/kohteita/stailaus_saaristokatu
+  description: Stailaus Saaristokatu
+  imagefolder: /images/kohteita/stailaus_saaristokatu
+  text: "Tyhjän asunnon myyntistailaus kalusteilla, tekstiileillä ja valaisimilla"
+  images:
+  - name: tyhja.JPG
+    thumb: oh2_thumb.JPG
+    text: Tyhjä asunto ennen stailausta
+  - name: oh1.JPG
+    text: Olohuone
+  - name: oh2.JPG
+    text: Olohuone
+  - name: oh3.JPG
+    text: Olohuone
+  - name: oh4.JPG
+    text: Olohuone
+  - name: oh5.JPG
+    text: Olohuone
+  - name: keittio1.JPG
+    text: Keittiö
+  - name: keittio2.JPG
+    text: keittio3
+  - name: keittio4.JPG
+    text: Keittiö
+  - name: mh.JPG
+    text: Makuuhuone
+  - name: mh1.JPG
+    text: Makuuhuone
+  - name: th1_2.JPG
+    text: Työhuone
+  - name: th2.JPG
+    text: Työhuone
+  - name: th1.JPG
+    text: Lukunurkkaus
+  - name: th3.JPG
+    text: Lukunurkkaus
+  - name: th4.JPG
+    text: Teehetki
+  - name: kph.JPG
+    text: Kylpyhuone
+  - name: kph2.JPG
+    text: Kylpyhuone
+  - name: sauna.JPG
+    text: Sauna
+
+- id: /images/kohteita/messut_16_kevat
+  description: Suurmessut Vaasa 2016
+  imagefolder: /images/kohteita/messut_16_kevat
+  text: "Suurmessujen pihaosastolle sisustettu osasto teemalla Juhat ulkona"
+  images:
+  - name: messut10.JPG
+    thumb: messut3_thumb.jpg
+    text: Messuosasto
+  - name: messut11.JPG
+    text: Messuosasto
+  - name: messut2.JPG
+    text: Kattaus
+  - name: messut3.JPG
+    text: Kattaus
+  - name: messut4.JPG
+    text: Oksat
+  - name: messut5.JPG
+    text: Kukkia
+  - name: messut6.JPG
+    text: Retkievästä
+  - name: messut7.JPG
+    text: pom pomit
+  - name: messut1.JPG
+    text: Piknik
+  - name: messut9.JPG
+    text: Neuvontapiste
+  - name: messut8.JPG
+    text: Neuvontapiste
+  - name: messut12.JPG
+    text: Neuvontapiste
+
+- id: /images/kohteita/messut_15
+  description: Vaasan Rakennusmessut 2015
+  imagefolder: /images/kohteita/messut_15
+  text: "Vaasan Rakennusmessujen sisustusnäytös, tekstiileillä nopeasti muutosta makuuhuoneeseen"
+  images:
+  - name: 1.JPG
+    thumb: 4_thumb.JPG
+    text: Sisustusneuvontapiste
+  - name: 2.JPG
+    text: Neuvontapiste
+  - name: 3.JPG
+    text: Graafinen, sininen vaihtoehto
+  - name: 4.JPG
+    text: Graafinen, sininen vaihtoehto
+  - name: 5.JPG
+    text: Amppeleja
+  - name: 6.JPG
+    text: Kukkainen, violetti vaihtoehto
+  - name: 7.JPG
+    text: Kukkainen, violetti vaihtoehto
+  - name: 8.JPG
+    text: Vihreä vaihtoehto
+  - name: 9.JPG
+    text: Vihreä vaihtoehto
+  - name: 10.JPG
+    text: Monivärinen vaihtoehto
+  - name: 11.JPG
+    text: Violetti vaihtoehto
+  - name: 12.JPG
+    text: Osasto
+  - name: 13.JPG
+    text: Violetti vaihtoehto
+  - name: 14.JPG
+    text: Sininen vaihtoehto
+  - name: 15.JPG
+    text: Osasto
+  - name: 16.JPG
+    text: Osasto
+  - name: 17.JPG
+    text: Osasto
+  - name: 18.JPG
+    text: Osasto
+  - name: 19.JPG
+    text: Osasto
 
 - id: kellari
   description: Kellari
@@ -622,156 +774,4 @@
   - name: ennen_jalkeen_taulut.jpg
     text: Taulut joista värimaailma valittiin.
 
-- id: neste_kotipizza
-  description: Neste-Kotipizza Kristiinankaupunki
-  imagefolder: /images/kohteita/neste_kotipizza
-  text: "Neste-Kotipizzan kokonaisvaltainen remontti. Kaikki pinnat uusittiin ulkoa ja sisältä, kalusteet ja valaistus uusittiin"
-  images:
-  - name: ennen_ulkoa.jpg
-    thumb: neste_kotipizza_thumb.jpg
-    text: Julkisivu ennen
-  - name: ennen_ulkoa2.jpg
-    text: Julkisivu ennen
-  - name: jalk_ulkoa.jpg
-    text: Julkisivu remontin jälkeen
-  - name: jalk_ulkoa2.jpg
-    text: Julkisivu remontin jälkeen
-  - name: ennen1.jpg
-    text: Kahvila ennen
-  - name: jalk1.jpg
-    text: Kahvila remontin jälkeen
-  - name: ennen2.jpg
-    text: Tiski ennen remonttia
-  - name: jalk4.jpg
-    text: Tiski remontin jälkeen
-  - name: ennen3.jpg
-    text: Myymälä ennen remonttia
-  - name: jalk5.jpg
-    text: Myymälä remontin jälkeen
-  - name: wc_ennen.jpg
-    text: WC ennen remonttia
-  - name: jalk2.jpg
-    text: Naisten/Inva-wc remontin jälkeen
-  - name: jalk3.jpg
-    text: Miesten wc remontin jälkeen
 
-- id: /images/kohteita/stailaus_saaristokatu
-  description: Stailaus Saaristokatu
-  imagefolder: /images/kohteita/stailaus_saaristokatu
-  text: "Tyhjän asunnon myyntistailaus kalusteilla, tekstiileillä ja valaisimilla"
-  images:
-  - name: tyhja.JPG
-    thumb: stailaus_saaristokatu_thumb.jpg
-    text: Tyhjä asunto ennen stailausta
-  - name: oh1.JPG
-    text: Olohuone
-  - name: oh2.JPG
-    text: Olohuone
-  - name: oh3.JPG
-    text: Olohuone
-  - name: oh4.JPG
-    text: Olohuone
-  - name: oh5.JPG
-    text: Olohuone
-  - name: keittio1.JPG
-    text: Keittiö
-  - name: keittio2.JPG
-    text: keittio3
-  - name: keittio4.JPG
-    text: Keittiö
-  - name: mh.JPG
-    text: Makuuhuone
-  - name: mh1.JPG
-    text: Makuuhuone
-  - name: th1_2.JPG
-    text: Työhuone
-  - name: th2.JPG
-    text: Työhuone
-  - name: th1.JPG
-    text: Lukunurkkaus
-  - name: th3.JPG
-    text: Lukunurkkaus
-  - name: th4.JPG
-    text: Teehetki
-  - name: kph.JPG
-    text: Kylpyhuone
-  - name: kph2.JPG
-    text: Kylpyhuone
-  - name: sauna.JPG
-    text: Sauna
-
-- id: /images/kohteita/messut_16_kevat
-  description: Suurmessut Vaasa 2016
-  imagefolder: /images/kohteita/messut_16_kevat
-  text: "Suurmessujen pihaosastolle sisustettu osasto teemalla Juhat ulkona"
-  images:
-  - name: messut10.JPG
-    thumb: messut_16_kevat_thumb.jpg
-    text: Messuosasto
-  - name: messut11.JPG
-    text: Messuosasto
-  - name: messut2.JPG
-    text: Kattaus
-  - name: messut3.JPG
-    text: Kattaus
-  - name: messut4.JPG
-    text: Oksat
-  - name: messut5.JPG
-    text: Kukkia
-  - name: messut6.JPG
-    text: Retkievästä
-  - name: messut7.JPG
-    text: pom pomit
-  - name: messut1.JPG
-    text: Piknik
-  - name: messut9.JPG
-    text: Neuvontapiste
-  - name: messut8.JPG
-    text: Neuvontapiste
-  - name: messut12.JPG
-    text: Neuvontapiste
-
-- id: /images/kohteita/messut_15
-  description: Vaasan Rakennusmessut 2015
-  imagefolder: /images/kohteita/messut_15
-  text: "Vaasan Rakennusmessujen sisustusnäytös, tekstiileillä nopeasti muutosta makuuhuoneeseen"
-  images:
-  - name: 1.JPG
-    thumb: messut_15_thumb.jpg
-    text: Sisustusneuvontapiste
-  - name: 2.JPG
-    text: Neuvontapiste
-  - name: 3.JPG
-    text: Graafinen, sininen vaihtoehto
-  - name: 4.JPG
-    text: Graafinen, sininen vaihtoehto
-  - name: 5.JPG
-    text: Amppeleja
-  - name: 6.JPG
-    text: Kukkainen, violetti vaihtoehto
-  - name: 7.JPG
-    text: Kukkainen, violetti vaihtoehto
-  - name: 8.JPG
-    text: Vihreä vaihtoehto
-  - name: 9.JPG
-    text: Vihreä vaihtoehto
-  - name: 10.JPG
-    text: Monivärinen vaihtoehto
-  - name: 11.JPG
-    text: Violetti vaihtoehto
-  - name: 12.JPG
-    text: Osasto
-  - name: 13.JPG
-    text: Violetti vaihtoehto
-  - name: 14.JPG
-    text: Sininen vaihtoehto
-  - name: 15.JPG
-    text: Osasto
-  - name: 16.JPG
-    text: Osasto
-  - name: 17.JPG
-    text: Osasto
-  - name: 18.JPG
-    text: Osasto
-  - name: 19.JPG
-    text: Osasto
