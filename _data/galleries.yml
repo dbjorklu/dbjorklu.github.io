@@ -158,7 +158,7 @@
   text: "Suurmessujen pihaosastolle sisustettu osasto teemalla Juhat ulkona"
   images:
   - name: messut10.JPG
-    thumb: messut3_thumb.jpg
+    thumb: messut3_thumb.JPG
     text: Messuosasto
   - name: messut11.JPG
     text: Messuosasto
