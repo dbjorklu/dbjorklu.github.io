@@ -1,14 +1,16 @@
 .nav {
   float: center;
-  line-height: 18.4px;
+  line-height: 8.4px;
   a {
-    color: rgba(80, 80, 80, 0.8);
+    width: 100%;
+    color: #ffffff;
     text-decoration: none;
     background: #fffff;
+    background-color: #333;
     padding: 8px 10px;
-    border-top: 0px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 0px solid rgba(0, 0, 0, 0.2);
-    font-size: 0.9em;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.4em;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075);
     border-left: 0px solid rgba(0, 0, 0, 0.2);
   }
@@ -22,8 +24,8 @@
     border-right: 0px solid rgba(0, 0, 0, 0.2);
   }
   a:hover, a.active {
-    font-size: 1.1em;
-    color: rgba(102, 204, 204, 1);
+    font-size: 1.4em;
+    color: #a2c1e2;
     border-right: 0px solid rgba(0, 0, 0, 0.2);
   }
   a:hover + a,a.active + a {
