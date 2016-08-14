@@ -3,12 +3,10 @@
 <link rel="stylesheet" href="flexslider.css" type="text/css">
 {% if page.carousel %}
 <!-- Google CDN Hosted jQuery  -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 <!-- Flexslider Library  -->
 <script src="/js/jquery.flexslider-min.js"></script>
 <!-- Initialisation Code  -->
 <script src="/js/app.js"></script>
-
 {% endif %}
 
 {% include head.html %}
@@ -34,6 +32,6 @@
   {% endif %}
   {{ content }}
   {% include fi/footer.html %}
+{% include script.html %}
 </body>
-
 </html>
