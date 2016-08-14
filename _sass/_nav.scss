@@ -1,45 +1,75 @@
-.nav {
-  float: center;
-  line-height: 8.4px;
-  a {
-    width: 100%;
-    color: #ffffff;
-    text-decoration: none;
-    background: #fffff;
-    background-color: #333;
-    padding: 8px 10px;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    font-size: 1.4em;
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075);
-    border-left: 0px solid rgba(0, 0, 0, 0.2);
-  }
-  a:first-child {
-    border-top-left-radius:     3px;
-    border-bottom-left-radius:  3px;
-  }
-  a:last-child {
-    border-top-right-radius:    3px;
-    border-bottom-right-radius: 3px;
-    border-right: 0px solid rgba(0, 0, 0, 0.2);
-  }
-  a:hover, a.active {
-    font-size: 1.4em;
-    color: #a2c1e2;
-    border-right: 0px solid rgba(0, 0, 0, 0.2);
-  }
-  a:hover + a,a.active + a {
-    border-left: 0;
-  }
+.navbar {
+    height: 52px;
+
+    font-size: 1.1em;
+    background-color: $text-color;
+    .navbar-nav>li>a {
+        color: white;
+        background-color: $text-color;
+    }
+    .navbar-nav>.active>a {
+        color: $erb-color;
+                background-color: $text-color;
+
+        font-weight: bold;
+    }
+    .navbar-nav>li>a:hover {
+        color: $erb-color;
+        background-color: $text-color;
+    }
+    .navbar-nav>.active>a:hover {
+        color: $erb-color;
+        background-color: $text-color;
+    }
+}
+.navbar-landing-top {
+    border: none;
+}
+.navbar-nav>li>.btn {
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
-@media only screen and (max-width: 450px) {
-  .nav {
-    float: none;
-    margin-bottom: 0;
-    padding: 0;
-  }
-  .nav a {
-    padding: 8px 30px;
-  }
+/* Navbar collapsing tweaks for bootstrap */
+
+@media (min-width: 600px) {
+    .navbar-collapse.collapse {
+        display: block!important;
+    }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav>li, .navbar-nav {
+        float: center !important;
+    }
+
+    .navbar-right {
+        background-color: $text-color;
+
+        float: right!important;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+}
+@media (max-width: 380px) {
+    .navbar-nav>li {
+    }
+
+    .navbar-nav {
+        border: 1px solid yellow;
+    }
+    .navbar-toggle {
+        margin-top: 19px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+    }
 }
