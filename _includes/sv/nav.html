@@ -1,21 +1,22 @@
-<div class="nav">
-  {% for p in site.pages  %}
-    {% if p.lang == "sv" %}
-      <a {% if p.url == page.url %}  class="active"{% endif %} href="{{ p.url }}">
-        {{ p.title }}
-      </a>
-    {% endif %}
-      {% endfor %}
-      <a href="../index.html">suomeksi</a>
-<!--  {% if page.class == 'etusivu' %}
-    <a href="/index.html" class="active">Etusivu</a><a href="/fi/palvelut.html">Palvelut</a><a href="/fi/kohteita.html">kohteita</a><a href="/fi/erika.html">Minä</a>
-  {% elsif page.class == 'palvelut' %}
-    <a href="/index.html">Etusivu</a><a href="/fi/palvelut.html" class="active">Palvelut</a><a href="/fi/kohteita.html">kohteita</a><a href="/fi/erika.html">Minä</a>
-  {% elsif page.class == 'kohteita' %}
-    <a href="/index.html">Etusivu</a><a href="/fi/palvelut.html">Palvelut</a><a href="/fi/kohteita.html" class="active">kohteita</a><a href="/fi/erika.html">Minä</a>
-  {% elsif page.class == 'erika' %}
-    <a href="/index.html">Etusivu</a><a href="/fi/palvelut.html">Palvelut</a><a href="/fi/kohteita.html">kohteita</a><a href="/fi/erika.html" class="active">Minä</a>
-  {% else %}
-    <a href="/index.html">Etusivu</a><a href="/fi/palvelut.html">Palvelut</a><a href="/fi/kohteita.html">kohteita</a><a href="/fi/erika.html">Minä</a>
-  {% endif %}  -->
-</div>
+
+<nav class="navbar navbar-inverse navbar-center">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#theNavBar">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="theNavBar">
+      <ul class="nav navbar-nav navbar-center">
+        {% for p in site.pages  %}
+        {% if p.lang == "sv" %}
+        <li {% if p.url == page.url %} class="active"{% endif %}> <a href="{{ p.url }}"> {{ p.title }} </a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
